@@ -1,0 +1,6 @@
+Financial Data Analysis 
+------------------------
+Total Months = 86 months
+Average Change = $-8,311.11
+Greast Increase = Aug-16,($1,862,002.00)
+Greast Decrease = Feb-14,($-1,825,558.00)
