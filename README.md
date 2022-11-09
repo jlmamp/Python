@@ -1,70 +1,97 @@
-Unit 3: Introduction to Python
+ Python
+ ------------------------------
+Background
+It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll use the concepts you've learned to complete the two Python challenges, PyBank and PyPoll.
+Both of these challenges present a real-world situation where your newfound Python scripting skills can come in handy. These challenges aren't easy, so expect some hard work ahead!
+----------------------------------
 
-Overview
-This week, you will be introduced to the Python programming language. You will learn how to store and manipulate data, read and write data to files, and translate problem-solving logic into Python implementations.
-The unit will begin with basic features, such as variable declarations, before moving on to more advanced topics, including reading and writing files, working with the file system, iterating using for loops and list comprehensions, list methods, dictionaries, and functions.
-
-Course Objectives
-
-Be able to navigate the desktop via the terminal
-Create Python scripts and run them in the terminal
-Begin to understand programming concepts in Python
-Feel confident reading data into Python from CSV files
-Feel confident writing data from Python into CSV files
-Know how to zip two lists together and when this is helpful
-Understand how to create and use Python functions
-Be able to create and use Python dictionaries
-Be able to read data in from a dictionary
-Be able to use list comprehensions
-Understand coding logic and reasoning
-Be able to add, commit, and push code to GitHub from the command line
+PyBank Instructions
+In this challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will give a set of financial data called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses". (Thankfully, your company has rather lax standards for accounting, so the records are simple.)
+Your task is to create a Python script that analyzes the records to calculate each of the following:
 
 
-Helpful Links
+The total number of months included in the dataset
 
 
-Python - Beginner
+The net total amount of "Profit/Losses" over the entire period
 
 
-Python Scripting
+The changes in "Profit/Losses" over the entire period, and then the average of those changes
 
 
-Python f-strings
+The greatest increase in profits (date and amount) over the entire period
 
 
-Python DataStructures
+The greatest decrease in profits (date and amount) over the entire period
 
 
-Python CSV Module
+Your analysis should look similar to the following:
+
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $22564198
+Average Change: $-8311.11
+Greatest Increase in Profits: Aug-16 ($1862002)
+Greatest Decrease in Profits: Feb-14 ($-1825558)
 
 
-Git and GitHub in Plain English
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
+PyPoll Instructions
+In this challenge, you are tasked with helping a small, rural town modernize its vote counting process.
+You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
 
-Git/GitHub
+The total number of votes cast
 
 
-Visual Git Guide
+A complete list of candidates who received votes
 
 
-Python 3's f-Strings
+The percentage of votes each candidate won
 
 
-
-Additional Course Resources
-
-
-Python CheatSheet
+The total number of votes each candidate won
 
 
-Python-GettingStarted.md
+The winner of the election based on popular vote.
 
 
-Virtual Environments
+Your analysis should look similar to the following:
+
+Election Results
+-------------------------
+Total Votes: 369711
+-------------------------
+Charles Casper Stockham: 23.049% (85213)
+Diana DeGette: 73.812% (272892)
+Raymon Anthony Doane: 3.139% (11606)
+-------------------------
+Winner: Diana DeGette
+-------------------------
 
 
-Conda Cheatsheet
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
+Hints and Considerations
 
 
+Consider what you've learned so far. You've learned how to import modules like csv; to read and write files in various formats; to store contents in variables, lists, and dictionaries; to iterate through basic data structures; and to debug along the way. Using what you've learned, try to break down your tasks into discrete mini-objectives.
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+The datasets for these challenges are quite large. This was done purposefully, as it showcases one of the limits of Excel-based analysis. As data analysts, our first instinct is often to go straight to Excel, but creating scripts in Python can provide us with more robust options for handling big data.
+
+
+Write one script for each dataset provided. Run your script separately to make sure that the code works for its respective dataset.
+
+
+Feel encouraged to work in groups, but don't shortchange yourself by copying someone else's work. You get what you put in, and the art of programming is extremely unforgiving to those who don't do their own work.
+
+
+Start early, and reach out for help when you need it! Be sure to identify specific questions for your instructors and TAs so that they understand your thought process and can provide targeted guidance.
+
+
+Always commit your work and back it up with pushes to GitHub or GitLab. You don't want to lose hours of your work! Also make sure that your repo has a detailed   README.md file.
+
+© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
